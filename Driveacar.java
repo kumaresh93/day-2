@@ -2,7 +2,7 @@ package testNg;
 
 import org.testng.annotations.Test;
 
-public class Driveacar {
+public class Driveacar 
 	@Test
 	public void startthecar() {
 		System.out.println("start the car");
