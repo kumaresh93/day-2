@@ -11,7 +11,7 @@ public class Driveacar {
 	public void putfirstgear() {
 		System.out.println("put first gear");
 	}
-@Test(enabled = true )
+@Test((dependsOnMethods = "putfirstgear")
 	public void putsecondgear() {
 		System.out.println("put second gear");
 	}
